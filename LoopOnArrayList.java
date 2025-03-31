@@ -12,6 +12,11 @@ public class LoopOnArrayList {
   //  System.out.println( cars.get(1));
       cars.set(1,"Toyota");
       System.out.println(cars);
+
+      // remove items
+
+      cars.remove(1);
+      System.out.println(cars);
     // for (int i = 0; i < cars.size(); i++) {
     //   System.out.println(cars.get(i));
     // }
