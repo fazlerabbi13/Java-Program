@@ -7,8 +7,14 @@ public class LoopOnArrayList {
     cars.add("BMW");
     cars.add("Ford");
     cars.add("Mazda");
+
+    // access item
+   System.out.println( cars.get(1));
+
     for (int i = 0; i < cars.size(); i++) {
       System.out.println(cars.get(i));
     }
+
+
   }
 }
