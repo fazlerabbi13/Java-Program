@@ -11,5 +11,6 @@ public class LinkedListInJava {
         // Use getFirst() to display the first item in the list
         System.out.println(cars.getFirst());
         System.out.println(cars.getLast());
+        System.out.println(cars.removeFirst());
       }
 }
