@@ -9,6 +9,10 @@ public class LinkedListInJava {
         cars.add("Mazda");
         
         // Use getFirst() to display the first item in the list
+        
+        cars.addFirst("BMW");
+        System.out.println(cars);
+        
         System.out.println(cars.getFirst());
         System.out.println(cars.getLast());
         System.out.println(cars.removeFirst());
