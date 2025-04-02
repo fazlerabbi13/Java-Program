@@ -12,6 +12,8 @@ public class LinkedListInJava {
         
         cars.addFirst("BMW");
         System.out.println(cars);
+        cars.addLast("Toyota");
+        System.out.println(cars);
         
         System.out.println(cars.getFirst());
         System.out.println(cars.getLast());
