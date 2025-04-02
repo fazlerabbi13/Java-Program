@@ -12,5 +12,6 @@ public class LinkedListInJava {
         System.out.println(cars.getFirst());
         System.out.println(cars.getLast());
         System.out.println(cars.removeFirst());
+        System.out.println(cars.removeLast());
       }
 }
