@@ -1,6 +1,7 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
-public class iterator {
+public class iteratorInJava {
      public static void main(String[] args) {
   
     // Make a collection
@@ -14,5 +15,6 @@ public class iterator {
     Iterator<String> it = cars.iterator();
   
     // Print the first item
-    Syste
+    System.out.println(it.next());
+  }
 }
