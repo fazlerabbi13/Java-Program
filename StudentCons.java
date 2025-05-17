@@ -6,13 +6,13 @@ public class StudentCons {
     public StudentCons() {
         name = "Rabbi";
         age = 0;
-        department = "Not";
+        department = "CSE";
     }
 
     public StudentCons(String name) {
         this.name = name;
         this.age = 0;
-        this.department = "Not";
+        this.department = "CSE";
     }
 
 
