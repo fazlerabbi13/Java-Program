@@ -16,8 +16,10 @@ class ArrayList1 {
         array.remove(2);
 
         // delete elements by using value
-         array.remove(3);
+        array.remove(3);
 
+        //  set element in specific index on arrayList
+         array.set(3, 8);
 
 
         System.out.println(array);
