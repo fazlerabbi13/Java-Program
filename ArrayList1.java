@@ -12,9 +12,11 @@ class ArrayList1 {
         array.add(4);
         array.add(5);
 
-
+        // delete elements by using index
         array.remove(2);
-        // array.remove(3);
+
+        // delete elements by using value
+         array.remove(3);
 
 
 
