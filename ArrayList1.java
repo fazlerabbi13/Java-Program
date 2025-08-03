@@ -12,6 +12,12 @@ class ArrayList1 {
         array.add(4);
         array.add(5);
 
+
+        array.remove(2);
+        // array.remove(3);
+
+
+
         System.out.println(array);
       	
     }
